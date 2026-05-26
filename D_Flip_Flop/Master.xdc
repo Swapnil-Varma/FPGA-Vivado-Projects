@@ -1,0 +1,7 @@
+set_property PACKAGE_PIN W5 [get_ports CLOCK]
+set_property IOSTANDARD LVCMOS33 [get_ports CLOCK]
+create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports CLOCK]
+set_property PACKAGE_PIN V17 [get_ports {D}]
+set_property IOSTANDARD LVCMOS33 [get_ports {D}]
+set_property PACKAGE_PIN U16 [get_ports {Q}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Q}]
